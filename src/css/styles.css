@@ -12,7 +12,17 @@
 
 /* Sections style */
 @import url('./header.css');
-@import url('./vite-promo.css');
-@import url('./badges.css');
-@import url('./back-link.css');
+
+@import url('./1-Hero.css');
+@import url('./2-about-the-game.css');
+@import url('./3-how-to-play.css');
+@import url('./4-magical-combos.css');
+@import url('./5-enchanted-tools.css');
+@import url('./6-game-features.css');
+@import url('./7-art-music.css');
+@import url('./8-quests-realms.css');
+@import url('./9-mobile-experience.css');
+@import url('./10-download-now.css');
+@import url('./11-contact-support.css');
+
 @import url('./footer.css');
