@@ -60,6 +60,11 @@
     height: 100%;
 }
 
+.instagram-icon {
+    stroke: #000;
+    fill: none;
+}
+
 
 @media only screen and (min-width: 1200px) {
     
