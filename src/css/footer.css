@@ -1,0 +1,39 @@
+.footer {
+    background-color: #fffdf5;
+    padding: 90px 0;
+}
+
+.footer-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.footer-descr {
+    font-size: 20px;
+    text-align: center;
+}
+
+.footer-descr:hover,
+.footer-descr:focus {
+    opacity: 0.6;
+}
+
+.footer-rights {
+    font-size: 20px;
+    text-align: center;
+    max-width: 300px;
+}
+
+@media only screen and (min-width: 1200px) {
+    .footer-wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 64px;
+    }
+
+    .footer-rights {
+        max-width: 450px;
+        }
+}
