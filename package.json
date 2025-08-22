@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/evpl_vite_template/",
+    "build": "vite build --base=/STP-10202/",
     "preview": "vite preview",
     "build:preview": "vite build && vite preview"
   },
@@ -17,9 +17,10 @@
     "vite": "^7.1.3",
     "vite-plugin-image-optimizer": "^1.1.8"
   },
-  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
+  "author": "Maliuk-Olexandr <maliukolexandr@gmail.com>",
   "license": "ISC",
   "dependencies": {
+    "swiper": "^11.2.10",
     "vite-plugin-full-reload": "^1.2.0",
     "vite-plugin-html-inject": "^1.1.2"
   }
