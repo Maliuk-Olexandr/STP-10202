@@ -1,0 +1,38 @@
+
+.footer-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    background-color: #fffdf5;
+    min-width: 288px;
+}
+
+.footer-descr {
+    font-weight: 400;
+    font-size: 20px;
+    color: #161616;
+    text-align: center;
+}
+
+.footer-rights {
+    font-weight: 400;
+    font-size: 20px;
+    color: #161616;
+    text-align: center;
+    max-width: 300px;
+}
+
+@media only screen and (min-width: 1200px) {
+    .footer-wrapper {
+        display: flex;
+        flex-direction: row;
+        gap: 64px;
+        min-width: 1128px;
+    }
+
+    .footer-rights {
+        max-width: 450px;
+        }
+}
