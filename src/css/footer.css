@@ -1,24 +1,17 @@
 .footer {
     background-color: #fffdf5;
+    padding: 90px 0;
 }
-
 
 .footer-wrapper {
     display: flex;
     flex-direction: column;
     gap: 24px;
-    padding-top: 90px;
-    padding-bottom: 90px;
-    min-width: 288px;
 }
 
 .footer-descr {
-    font-weight: 400;
     font-size: 20px;
-    color: #161616;
     text-align: center;
-    cursor: pointer;
-    transition: opacity 600ms cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 .footer-descr:hover,
@@ -27,9 +20,7 @@
 }
 
 .footer-rights {
-    font-weight: 400;
     font-size: 20px;
-    color: #161616;
     text-align: center;
     max-width: 300px;
 }
@@ -38,8 +29,8 @@
     .footer-wrapper {
         display: flex;
         flex-direction: row;
+        justify-content: space-between;
         gap: 64px;
-        min-width: 1128px;
     }
 
     .footer-rights {
