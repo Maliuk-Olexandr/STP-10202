@@ -5,9 +5,7 @@
 
 .contact-title {
     font-weight: 600;
-    font-size: 24px;
     text-align: center;
-    color: #161616;
     margin-bottom: 50px;
 }
 
@@ -15,35 +13,28 @@
     font-weight: 600;
     font-size: 16px;
     text-align: center;
-    color: #161616;
     margin-bottom: 50px;
 }
 
 .contact-mail {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.46;
-    color: #161616;
     display: block;
     text-align: center;
     margin-bottom: 16px;
 }
 
 .contact-support {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.46;
     text-align: center;
-    color: #161616;
     margin-bottom: 16px;
 }
 
 .contact-social {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.46;
     text-align: center;
-    color: #161616;
     margin-bottom: 16px;
 }
 
@@ -72,13 +63,6 @@
 
 @media only screen and (min-width: 1200px) {
     
-    .contact-text {
-        /* width: 552px; */
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-    
     .contact-title {
         font-weight: 500;
         font-size: 40px;
@@ -91,23 +75,20 @@
         text-transform: capitalize;
         margin-bottom: 24px;
         width: 552px;
-        align-self: center;
+        margin: 0 auto 24px;
     }
 
     .contact-mail {
-        font-weight: 400;
         font-size: 24px;
         margin-bottom: 16px;
     }
 
     .contact-support {
-        font-weight: 400;
         font-size: 24px;
         margin-bottom: 16px;
     }
 
     .contact-social {
-        font-weight: 400;
         font-size: 24px;
         margin-bottom: 16px;
     }
