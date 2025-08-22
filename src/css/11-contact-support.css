@@ -73,23 +73,19 @@
         font-weight: 600;
         font-size: 24px;
         text-transform: capitalize;
-        margin-bottom: 24px;
         width: 552px;
         margin: 0 auto 24px;
     }
 
     .contact-mail {
-        font-size: 24px;
         margin-bottom: 16px;
     }
 
     .contact-support {
-        font-size: 24px;
         margin-bottom: 16px;
     }
 
     .contact-social {
-        font-size: 24px;
         margin-bottom: 16px;
     }
 
