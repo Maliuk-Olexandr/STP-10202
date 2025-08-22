@@ -1,0 +1,95 @@
+.contact-title {
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.contact-descr {
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.contact-mail {
+    font-size: 16px;
+    line-height: 1.46;
+    display: block;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.contact-support {
+    font-size: 16px;
+    line-height: 1.46;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.contact-social {
+    font-size: 16px;
+    line-height: 1.46;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.contact-social-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.contact-social-list-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 34px;
+    height: 34px;
+}
+
+.contact-social-list-item a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.instagram-icon {
+    stroke: #000;
+    fill: none;
+}
+
+
+@media only screen and (min-width: 1200px) {
+    
+    .contact-title {
+        font-weight: 500;
+        font-size: 40px;
+        margin-bottom: 40px;
+    }
+
+    .contact-descr {
+        font-weight: 600;
+        font-size: 24px;
+        text-transform: capitalize;
+        width: 552px;
+        margin: 0 auto 24px;
+    }
+
+    .contact-mail {
+        margin-bottom: 16px;
+    }
+
+    .contact-support {
+        margin-bottom: 16px;
+    }
+
+    .contact-social {
+        margin-bottom: 16px;
+    }
+
+    .contact-social-list {
+        gap: 24px;
+    }
+}
