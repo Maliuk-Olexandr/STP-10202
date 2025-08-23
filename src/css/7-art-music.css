@@ -1,0 +1,99 @@
+.music-title {
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 86px;
+}
+
+.music-content-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.music-descr {
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+  color: #000;
+}
+
+.music-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.music-done-list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  background: #6018de;
+  border-radius: 30px;
+  padding: 52px 36px;
+}
+
+.music-done-list-item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.done-icon {
+  flex-shrink: 0;
+  stroke: #fffdf5;
+  fill: #fffdf5;
+}
+
+.music-text-list-item {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.46;
+  color: #fffdf5;
+}
+
+.music-bottom-descr {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.46;
+  text-align: center;
+  color: #000;
+}
+
+@media only screen and (min-width: 1200px) {
+  .music-title {
+    font-weight: 500;
+    font-size: 40px;
+    margin-bottom: 62px;
+  }
+
+  .music-descr {
+    font-size: 24px;
+  }
+
+  .music-wrapper {
+    flex-direction: row;
+    justify-content: center;
+    gap: 110px;
+  }
+
+  .music-text-list-item {
+    font-size: 24px;
+  }
+
+  .music-done-list{
+    max-width: 550px;
+  }
+  .music-done-list-item{
+    gap: 50px;
+  }
+
+  .music-bottom-descr {
+    font-size: 24px;
+  }
+  .done-icon{
+    width: 48px;
+    height: 48px;
+  }
+}
