@@ -20,3 +20,51 @@ input::placeholder {
   transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.download-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  gap: 4px;
+  border: 2px solid #a6a6a6;
+  border-radius: 7px;
+  min-width: 238px;
+  min-height: 68px;
+  background-color: #fff;
+}
+
+.download-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'Montserrat', sans-serif;
+  color: #000;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: -0.01em;
+}
+
+.download-text p:last-child {
+  font-weight: 600;
+  font-size: 24px;
+  text-transform: capitalize;
+}
+@media screen and (min-width: 1200px) {
+  .download-link {
+    min-width: 288px;
+    min-height: 84px;
+  }
+  .download-link svg {
+    width: 50px;
+    height: 54px;
+  }
+  .download-link p:first-child {
+    font-size: 20px;
+  }
+
+  .download-text p:last-child {
+    font-size: 32px;
+  }
+}
