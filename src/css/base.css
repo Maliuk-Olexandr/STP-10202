@@ -55,10 +55,14 @@ input::placeholder {
 .download-link:hover,
 .download-link:focus {
   background-color: black;
+  outline: none;
 }
 .download-link:hover .download-text,
 .download-link:focus .download-text {
   color: #fff;
+}
+.download-link:active .download-text {
+  color: #31e89f;
 }
 
 section{
