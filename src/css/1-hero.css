@@ -1,10 +1,10 @@
 .hero {
-  background-image: linear-gradient(180deg, #7277f1 32.69%, #f8b2d4 100%),
-    image-set(
+  background-image: image-set(
       url(/img/mob-hero-background.webp) 1x,
       url(/img/mob-hero-background@2x.webp) 2x
-    );
-  background-repeat: repeat;
+    ),
+    linear-gradient(180deg, #7277f1 32.69%, #f8b2d4 100%);
+  background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   padding: 130px 0 90px;
@@ -60,31 +60,31 @@
   color: #fffdf5;
 }
 @media screen and (min-width: 1200px) {
-  .hero{
-    background-image: linear-gradient(180deg, #7277f1 32.69%, #f8b2d4 100%),
-      image-set(
+  .hero {
+    background-image: image-set(
         url(/img/pc-hero-background.webp) 1x,
         url(/img/pc-hero-background@2x.webp) 2x
-      );
+      ),
+      linear-gradient(180deg, #7277f1 32.69%, #f8b2d4 100%);
     padding: 224px 0 90px;
   }
   .hero-wrapper {
     flex-direction: row-reverse;
   }
-  .hero-image{
+  .hero-image {
     width: 394px;
     height: 488px;
   }
   .hero-title {
     font-size: 62px;
   }
-  .hero-description{
+  .hero-description {
     font-size: 20px;
   }
-  .hero-item-desc{
+  .hero-item-desc {
     font-size: 20px;
   }
-  .hero-item{
+  .hero-item {
     width: 228px;
   }
 }
