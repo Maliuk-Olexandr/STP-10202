@@ -1,8 +1,8 @@
 .hero {
   background-image: linear-gradient(180deg, #7277f1 32.69%, #f8b2d4 100%),
     image-set(
-      url(./img/mob-hero-background.webp) 1x,
-      url(./img/mob-hero-background@2x.webp) 2x
+      url(/img/mob-hero-background.webp) 1x,
+      url(/img/mob-hero-background@2x.webp) 2x
     );
   background-repeat: repeat;
   background-size: cover;
