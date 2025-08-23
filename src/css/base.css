@@ -12,11 +12,12 @@ html {
 }
 
 a,
+p,
 button,
 svg,
 input,
 input::placeholder {
-  transition-duration: 250ms;
+  transition-duration: 500ms;
   transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -51,6 +52,15 @@ input::placeholder {
   font-size: 24px;
   text-transform: capitalize;
 }
+.download-link:hover,
+.download-link:focus {
+  background-color: black;
+}
+.download-link:hover .download-text,
+.download-link:focus .download-text {
+  color: #fff;
+}
+
 section{
     scroll-margin-top: 50px;
 }

@@ -59,7 +59,7 @@ body[data-scroll='lock'] {
   overflow: hidden;
 }
 .burger-icon use {
-  transition: all 0.3s ease;
+  transition: all 0.5s ease;
 }
 .mobile-menu .container {
   background-color: #6018de;
@@ -87,7 +87,8 @@ body[data-scroll='lock'] {
 }
 .mobile-link:hover,
 .mobile-link:focus {
-  text-shadow: 0 0 40px rgb(0, 0, 0),0 0 35px rgb(0, 0, 0),0 0 30px rgb(0, 0, 0),0 0 25px rgb(0, 0, 0);
+  text-shadow: 0 0 40px rgb(255, 255, 255),0 0 35px rgb(165, 255, 182),0 0 30px rgb(166, 255, 136),0 0 25px rgb(255, 115, 115);
+  color:#feec2a;
 }
 
 @media screen and (min-width: 1200px) {
