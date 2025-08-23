@@ -51,6 +51,9 @@ input::placeholder {
   font-size: 24px;
   text-transform: capitalize;
 }
+section{
+    scroll-margin-top: 50px;
+}
 @media screen and (min-width: 1200px) {
   .download-link {
     min-width: 288px;
@@ -67,4 +70,8 @@ input::placeholder {
   .download-text p:last-child {
     font-size: 32px;
   }
+
+  section{
+    scroll-margin-top: 130px;
+}
 }
