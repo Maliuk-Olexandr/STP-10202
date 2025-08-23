@@ -1,5 +1,46 @@
-<header class="header">
-  <div class="container">
-   
+<header>
+  <div class="container header-container">
+    <a class="logo" href="./index.html" aria-label="Witch's Adventure Logo, Home">
+      <img src="./img/logo.webp" srcset="./img/logo.webp 1x, ./img/logo@2x.webp 2x" sizes="86px"
+        alt="Witch's Adventure Logo" width="86" height="86" decoding="async">
+    </a>
+    <nav class="header-nav" aria-label="Main navigation">
+      <ul>
+        <li><a class="mobile-link" href="#home">Home </a></li>
+        <li><a class="mobile-link" href="#about-the-game">About the Game </a></li>
+        <li><a class="mobile-link" href="#how-to-play">How to Play</a></li>
+        <li><a class="mobile-link" href="#magical-combos">Magical Combos</a></li>
+        <li><a class="mobile-link" href="#enchanted-tools">Enchanted Tools</a></li>
+        <li><a class="mobile-link" href="#game-features">Game Features</a></li>
+        <li><a class="mobile-link" href="#art-and-music">Art & Music</a></li>
+        <li><a class="mobile-link" href="#quests-and-realms">Quests & Realms</a></li>
+        <li><a class="mobile-link" href="#mobile-experience">Mobile Experience</a></li>
+        <li><a class="mobile-link" href="#download">Download</a></li>
+        <li><a class="mobile-link" href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <button class="burger-btn" type="button" data-action="toggle" aria-label="Toggle menu">
+      <svg class="burger-icon" width="24" height="24">
+        <use href="/img/sprite.svg#icon-burger" data-burger></use>
+        <use href="/img/sprite.svg#icon-x" data-close style="display: none;"></use>
+      </svg>
+    </button>
+    <div class="mobile-menu" data-menu data-visible="close">
+      <nav class="container" aria-label="Main navigation">
+        <ul class="mobile-list">
+          <li><a class="mobile-link" href="#home">Home </a></li>
+          <li><a class="mobile-link" href="#about-the-game">About the Game </a></li>
+          <li><a class="mobile-link" href="#how-to-play">How to Play</a></li>
+          <li><a class="mobile-link" href="#magical-combos">Magical Combos</a></li>
+          <li><a class="mobile-link" href="#enchanted-tools">Enchanted Tools</a></li>
+          <li><a class="mobile-link" href="#game-features">Game Features</a></li>
+          <li><a class="mobile-link" href="#art-and-music">Art & Music</a></li>
+          <li><a class="mobile-link" href="#quests-and-realms">Quests & Realms</a></li>
+          <li><a class="mobile-link" href="#mobile-experience">Mobile Experience</a></li>
+          <li><a class="mobile-link" href="#download">Download</a></li>
+          <li><a class="mobile-link" href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
   </div>
 </header>
