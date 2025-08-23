@@ -1,4 +1,3 @@
-
 *,
 h1,
 h2,
@@ -15,6 +14,7 @@ img,
 button {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 ul,
 ol {
