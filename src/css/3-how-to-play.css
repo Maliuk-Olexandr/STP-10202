@@ -1,0 +1,184 @@
+.how-to-play {
+  font-weight: 600;
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 62px;
+}
+
+.how-to-play-description {
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 24px;
+}
+.how-to-play-postscript {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.46;
+  margin-bottom: 24px;
+}
+.how-slide {
+  width: 289px;
+  height: 251px;
+  position: relative;
+  margin-bottom: 40px;
+}
+.how-slide-img {
+  width: 242px;
+  height: 188px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.how-slide-desc {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.46;
+  color: #fff;
+  text-transform: capitalize;
+  border-radius: 17px;
+  padding: 24px 18px;
+  width: 161px;
+  height: 102px;
+  background: #6018de;
+  position: relative;
+}
+.how-slide-content div {
+  position: relative;
+}
+.how-slide-number {
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+  color: #fff;
+  border-radius: 50%;
+  width: 41px;
+  height: 41px;
+  background: #8f62df;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(-50%, -50%);
+  z-index: 5;
+}
+
+.how-slide-content {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.swiper-button-container {
+  height: 42px;
+  position: relative;
+}
+.swiper-button-wrapper {
+  display: flex;
+  position: absolute;
+  width: 97px;
+  height: 42px;
+  left: 0;
+}
+
+#my-pagination {
+  max-width: 173px;
+  left: auto;
+  right: 0;
+  margin-top: 19px;
+}
+#swiper-button-next,
+#swiper-button-prev {
+  width: 42px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  margin-top: 0;
+}
+#swiper-button-prev {
+  left: 0;
+}
+#swiper-button-next {
+  right: 0;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  display: none;
+}
+.how-left {
+  transform: rotate(180deg);
+}
+
+#how-to-play-swiper
+  .swiper-pagination-progressbar
+  .swiper-pagination-progressbar-fill  {
+  background: rgba(22, 22, 22, 0.93) ;
+  border-radius: 4px;
+}
+
+@media screen and (min-width: 1200px) {
+  .how-to-play {
+    font-weight: 500;
+    font-size: 40px;
+  }
+  .how-to-play-description {
+    font-size: 24px;
+    text-transform: capitalize;
+  }
+  .how-to-play-postscript {
+    font-size: 24px;
+  }
+  .how-slide {
+    width: 525px;
+    height: 398px;
+  }
+  .how-slide-img {
+    width: 360px;
+    height: 282px;
+  }
+  .how-slide-desc {
+    font-size: 20px;
+    border-radius: 30px;
+    padding: 44px 34px;
+    width: 290px;
+    height: 184px;
+  }
+  .how-slide-number {
+    font-size: 34px;
+    width: 70px;
+    height: 70px;
+  }
+
+  .how-left,
+  .how-right {
+    width: 72px;
+    height: 72px;
+  }
+  /* swiper */
+  .swiper-button-container {
+    height: 72px;
+    width: 1020px;
+    margin: 0 auto;
+  }
+  .swiper-button-wrapper {
+    width: 160px;
+    height: 72px;
+  }
+
+  #my-pagination {
+    max-width: 832px;
+    margin-top: 34px;
+   
+  }
+  #swiper-button-next,
+  #swiper-button-prev {
+    width: 72px;
+    height: 72px;
+    
+    
+  }
+}
