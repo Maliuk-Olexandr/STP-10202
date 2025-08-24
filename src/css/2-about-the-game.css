@@ -1,5 +1,11 @@
 #about-the-game {
-  background: #fffdf5;
+  background-image: image-set(
+    url(/img/mob-about-bg.webp) 1x,
+    url(/img/mob-about-bg@2x.webp) 2x
+  );
+  background-size: cover;
+  background-position: center;
+  background-color: #fffdf5;
 }
 .about-title {
   font-weight: 600;
@@ -21,12 +27,6 @@
   border: 2px solid rgba(205, 178, 128, 0.6);
   border-radius: 30px;
   padding: 16px 30px;
-  background-image: image-set(
-    url(/images/about-bg.webp) 1x,
-    url(/images/about-bg@2x.webp) 2x
-  );
-  background-repeat: no-repeat;
-  background-size: cover;
   background-color: #fffddc;
 }
 .about-secondary {
@@ -54,8 +54,34 @@
 .about-item svg {
   flex-shrink: 0;
 }
+.about-box {
+  position: relative;
+  z-index: 2;
+}
+.about-decor1 {
+  display: none;
+}
+.about-decor2 {
+  display: none;
+}
 
 @media screen and (min-width: 1200px) {
+  .about-decor1 {
+    display: block;
+    position: absolute;
+    top: 30px;
+    left: 40px;
+    z-index: -1;
+    transform: translate(-50%, -50%);
+  }
+  .about-decor2 {
+    display: block;
+    position: absolute;
+    bottom: 100px;
+    right: 0;
+    z-index: -1;
+    transform: translate(50%, 50%);
+  }
   .about-title {
     font-size: 40px;
   }
@@ -79,7 +105,7 @@
     gap: 60px;
     justify-content: center;
   }
-  .about-content{
-    max-width: 445px;
+  .about-content {
+    width: 445px;
   }
 }
