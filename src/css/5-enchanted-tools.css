@@ -1,0 +1,77 @@
+.enchanted-title {
+  font-weight: 600;
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 26px;
+}
+.enchanted-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+.enchanted-subtitle {
+  font-weight: 600;
+  font-size: 16px;
+}
+.enchanted-list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.enchanted-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.enchanted-item svg {
+  flex-shrink: 0;
+}
+
+.enchanted-item-description > * {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.46;
+}
+.enchanted-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.46;
+}
+.enchanted-image{
+  display: none;
+}
+
+@media screen and (min-width: 1200px) {
+.enchanted-title {
+  font-weight: 500;
+  font-size: 40px;
+  margin-bottom: 62px;
+}
+.enchanted-content{
+  align-items: start;
+
+}
+.enchanted-subtitle {
+  font-size: 24px;
+}
+
+.enchanted-item-description > * {
+  font-size: 24px;
+}
+.enchanted-description {
+  font-size: 24px;
+}
+.enchanted-wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  max-width: 985px;
+  margin: 0 auto;
+}
+.enchanted-image{
+  display: block;
+  width: 450px;
+  height: 458px;
+}
+}
