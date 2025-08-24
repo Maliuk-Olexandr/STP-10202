@@ -17,8 +17,11 @@
 
 .footer-descr:hover,
 .footer-descr:focus {
-    opacity: 0.6;
+     text-shadow: 0 0 40px rgb(0, 0, 0),0 0 35px rgb(22, 2, 130),0 0 30px rgb(70, 215, 240),0 0 25px rgb(0, 0, 0);
+     outline: none;
 }
+.footer-descr:active {
+color: #6018de;}
 
 .footer-rights {
     font-size: 20px;

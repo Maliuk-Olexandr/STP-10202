@@ -1,96 +1,101 @@
 .contact-title {
-    font-weight: 600;
-    text-align: center;
-    margin-bottom: 50px;
-    font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 24px;
 }
 
 .contact-descr {
-    font-weight: 600;
-    font-size: 16px;
-    text-align: center;
-    margin-bottom: 50px;
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 50px;
 }
 
 .contact-mail {
-    font-size: 16px;
-    line-height: 1.46;
-    display: block;
-    text-align: center;
-    margin-bottom: 16px;
+  font-size: 16px;
+  line-height: 1.46;
+  display: block;
+  text-align: center;
+  margin-bottom: 16px;
 }
 
 .contact-support {
-    font-size: 16px;
-    line-height: 1.46;
-    text-align: center;
-    margin-bottom: 16px;
+  font-size: 16px;
+  line-height: 1.46;
+  text-align: center;
+  margin-bottom: 16px;
 }
 
 .contact-social {
-    font-size: 16px;
-    line-height: 1.46;
-    text-align: center;
-    margin-bottom: 16px;
+  font-size: 16px;
+  line-height: 1.46;
+  text-align: center;
+  margin-bottom: 16px;
 }
 
 .contact-social-list {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
 }
 
 .contact-social-list-item {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 34px;
-    height: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
 }
 
 .contact-social-list-item a {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  stroke: #000;
 }
-
-.instagram-icon {
-    stroke: #000;
-    fill: none;
+.contact-social-list-item a:hover,
+.contact-social-list-item a:focus {
+  outline: none;
+  box-shadow: 0 0 40px rgb(0, 0, 0), 0 0 35px rgb(22, 2, 130),
+    0 0 30px rgb(70, 215, 240), 0 0 25px rgb(0, 0, 0);
+  fill: aqua;
+  background-color: aqua;
 }
-
+.contact-social-list-item a:active {
+  transform: scale(0.9);
+}
 
 @media only screen and (min-width: 1200px) {
-    
-    .contact-title {
-        font-weight: 500;
-        font-size: 40px;
-        margin-bottom: 40px;
-    }
+  .contact-title {
+    font-weight: 500;
+    font-size: 40px;
+    margin-bottom: 40px;
+  }
 
-    .contact-descr {
-        font-weight: 600;
-        font-size: 24px;
-        text-transform: capitalize;
-        width: 552px;
-        margin: 0 auto 24px;
-    }
+  .contact-descr {
+    font-weight: 600;
+    font-size: 24px;
+    text-transform: capitalize;
+    width: 552px;
+    margin: 0 auto 24px;
+  }
 
-    .contact-mail {
-        margin-bottom: 16px;
-    }
+  .contact-mail {
+    margin-bottom: 16px;
+  }
 
-    .contact-support {
-        margin-bottom: 16px;
-    }
+  .contact-support {
+    margin-bottom: 16px;
+  }
 
-    .contact-social {
-        margin-bottom: 16px;
-    }
+  .contact-social {
+    margin-bottom: 16px;
+  }
 
-    .contact-social-list {
-        gap: 24px;
-    }
+  .contact-social-list {
+    gap: 24px;
+  }
 }
