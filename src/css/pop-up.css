@@ -7,10 +7,18 @@
   padding: 90px 16px;
   text-align: center;
   z-index: 9999;
-  display: none;
   flex-direction: column;
   align-items: center;
   gap: 24px;
+  transform: translateY(200%);
+
+  opacity: 0;
+  transition: transform 0.5s ease, opacity 0.5s ease;
+}
+.cookies-popup.show {
+  display: flex;
+  transform: translateY(0);
+  opacity: 1;
 }
 .cookies-popup-title {
   font-weight: 700;

@@ -1,12 +1,9 @@
 #about-the-game {
-  background-image: image-set(
-    url(/img/mob-about-bg.webp) 1x,
-    url(/img/mob-about-bg@2x.webp) 2x
-  );
-  background-size: cover;
-  background-position: center;
   background-color: #fffdf5;
+  position: relative;
+  overflow: hidden;
 }
+
 .about-title {
   font-weight: 600;
   font-size: 24px;
@@ -42,14 +39,14 @@
 .about-list {
   display: flex;
   flex-direction: column;
-  gap: 4px;
 }
 .about-item {
   display: flex;
   align-items: center;
-  gap: 38px;
+  gap: 24px;
   font-size: 16px;
   line-height: 1.46;
+  min-height: 47px;
 }
 .about-item svg {
   flex-shrink: 0;
@@ -58,30 +55,27 @@
   position: relative;
   z-index: 2;
 }
+.about-decor1,
+.about-decor2 {
+  width: 270px;
+  height: 270px;
+  filter: blur(30px);
+  fill: #6018de;
+  position: absolute;
+  z-index: -1;
+}
 .about-decor1 {
-  display: none;
+  top: 30px;
+  left: 30px;
+  transform: translate(-50%, -50%);
 }
 .about-decor2 {
-  display: none;
+  bottom: 30px;
+  right: 30px;
+  transform: translate(50%, 50%);
 }
 
 @media screen and (min-width: 1200px) {
-  .about-decor1 {
-    display: block;
-    position: absolute;
-    top: 30px;
-    left: 40px;
-    z-index: -1;
-    transform: translate(-50%, -50%);
-  }
-  .about-decor2 {
-    display: block;
-    position: absolute;
-    bottom: 100px;
-    right: 0;
-    z-index: -1;
-    transform: translate(50%, 50%);
-  }
   .about-title {
     font-size: 40px;
   }
