@@ -1,10 +1,13 @@
 body {
-  font-family: 'Spectral', sans-serif;
+  font-family: 'Spectral', Georgia, serif;
   font-weight: 400;
   font-size: 24px;
   color: #161616;
   font-style: normal;
   background-color: #e0cefe;
+}
+h1, h2, h3, .title,p {
+  font-size-adjust: 0.48;
 }
 
 html {
