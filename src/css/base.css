@@ -59,13 +59,14 @@ input::placeholder {
 .download-link:focus {
   background-color: black;
   outline: none;
+  border-color: black;
 }
 .download-link:hover .download-text,
 .download-link:focus .download-text {
   color: #fff;
 }
 .download-link:active .download-text {
-  color: #31e89f;
+  color: #feec2a;
 }
 
 section{

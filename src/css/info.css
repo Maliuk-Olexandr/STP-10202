@@ -59,12 +59,15 @@ h4 {
 }
 
 .back-link {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   text-decoration: none;
   color: inherit;
   gap: 4px;
   padding: 0 16px;
+}
+.back-link:hover {
+  text-decoration: underline;
 }
 
 header {
