@@ -50,8 +50,7 @@
 }
 
 .exp-image {
-  width: 174px;
-  height: 380px;
+  width: 175px;
   margin: 0 auto;
 }
 
@@ -95,6 +94,5 @@
 
   .exp-image {
     width: 288px;
-    height: 624px;
   }
 }
