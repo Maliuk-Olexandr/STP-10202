@@ -1,9 +1,13 @@
 <header>
   <div class="container header-container">
     <a class="logo" href="./index.html" aria-label="Witch's Adventure Logo, Home">
-      <img 
-      srcset="/img/logo.webp 1x, /img/logo@2x.webp 2x" 
-        src="/img/mob-logo.webp" alt="Witch's Adventure Logo" width="86" height="86" decoding="async" fetchpriority="high" loading="eager">
+      <img src="/img/mob-logo.webp" srcset="
+          /img/mob-logo.webp 40w,
+          /img/mob-logo@2x.webp 80w,
+          /img/pc-logo.webp 86w,
+          /img/pc-logo@2x.webp 172w" 
+          sizes="(max-width: 1199px) 40px, 86px" alt="Witch's Adventure Logo" width="40"
+        height="40" decoding="async" fetchpriority="high" loading="eager">
     </a>
     <nav class="header-nav" aria-label="Main navigation">
       <ul>
