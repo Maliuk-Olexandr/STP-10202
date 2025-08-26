@@ -26,7 +26,7 @@ const swiper2 = new Swiper('#quests-swiper', {
       spaceBetween: 100,
       coverflowEffect: {
         rotate: 0,
-        stretch: 0,
+        stretch: 100,
         depth: 100,
         modifier: 1,
         slideShadows: false,
