@@ -1,0 +1,83 @@
+#quests-and-realms {
+    background-color: #fffdf5;
+}
+
+.quests-title {
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+    color: #161616;
+    margin-bottom: 62px;
+}
+
+.quests-descr {
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    color: #000;
+    margin-bottom: 24px;
+}
+
+.swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 24px;
+    width: 288px;
+
+}
+
+.slide-image {
+    width: 116px;
+    height: 180px;
+    display: block;
+    margin: 0 auto;
+}
+
+.slide-descr {
+    font-weight: 400;
+    font-size: 8px;
+    text-align: center;
+    color: #fff;
+    width: 90px;
+    height: 24px;
+    position: absolute;
+    bottom: 26px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.descr-one {
+    font-weight: 400;
+    font-size: 8px;
+    text-align: center;
+    color: #fff;
+    width: 90px;
+    height: 24px;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#quests-btn-next,
+#quest-btn-prev {
+    display: none;
+}
+
+.quests-botom-descr {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.46;
+    text-align: center;
+    color: #000;
+    width: 236px;
+    margin: 0 auto;
+}
+
