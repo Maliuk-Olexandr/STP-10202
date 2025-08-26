@@ -34,7 +34,6 @@ document.addEventListener('DOMContentLoaded', () => {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
     },
-
     breakpoints: {
       1200: {
         slidesPerView: 2,
@@ -46,10 +45,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const handleResize = debounce(() => {
     swiper.update();
-    if (swiper.autoplay) {
-      swiper.autoplay.stop();
-      swiper.autoplay.start();
-    }
   }, 300);
 
   window.addEventListener('resize', handleResize);
