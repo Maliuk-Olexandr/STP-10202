@@ -10,20 +10,23 @@ const swiper2 = new Swiper('#quests-swiper', {
   grabCursor: true,
   centeredSlides: true,
   slidesPerView: 'auto',
-  coverflowEffect: {
-    rotate: 0,
-    stretch: 250,
-    depth: 100,
-    modifier: 1,
-    slideShadows: false,
-    scale: 1,
-  },
+ 
   breakpoints: {
+    320: {
+      coverflowEffect: {
+        rotate: 0,
+        stretch: 250,
+        depth: 100,
+        modifier: 1,
+        slideShadows: false,
+        scale: 1,
+      },
+    },
     1200: {
       spaceBetween: 100,
       coverflowEffect: {
         rotate: 0,
-        stretch: 250,
+        stretch: 0,
         depth: 100,
         modifier: 1,
         slideShadows: false,
