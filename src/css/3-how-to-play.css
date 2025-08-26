@@ -82,14 +82,14 @@
   left: 0;
 }
 
-#my-pagination {
+#how-to-play-pagination {
   max-width: 173px;
   left: auto;
   right: 0;
   margin-top: 19px;
 }
-#swiper-button-next,
-#swiper-button-prev {
+#htp-next,
+#htp-prev {
   width: 42px;
   height: 42px;
   display: flex;
@@ -101,21 +101,23 @@
   color: #161616;
   transition: all 0.2s ease;
 }
-#swiper-button-prev {
+#htp-prev {
   left: 0;
 }
-#swiper-button-next {
+#htp-next {
   right: 0;
 }
 
-#swiper-button-next:hover svg,
-#swiper-button-next:focus svg{
-  color: aqua;
+#htp-next:hover svg,
+#htp-next:focus svg{
+ color: aqua;
+ stroke: aqua;
  filter: drop-shadow(-1px 1px 1px rgba(0,0,0,0.3)) drop-shadow(1px -1px 1px rgba(255,255,255,0.2));
 }
-#swiper-button-prev:hover svg,
-#swiper-button-prev:focus svg {
-  color: aqua;
+#htp-prev:hover svg,
+#htp-prev:focus svg {
+  stroke: aqua;
+ color: aqua;
   filter: drop-shadow(1px 1px 1px rgba(0,0,0,0.3)) drop-shadow(-1px -1px 1px rgba(255,255,255,0.2));
 }
 
@@ -183,12 +185,12 @@
     height: 72px;
   }
 
-  #my-pagination {
+  #how-to-play-pagination {
     max-width: 832px;
     margin-top: 34px;
   }
-  #swiper-button-next,
-  #swiper-button-prev {
+  #htp-next,
+  #htp-prev {
     width: 72px;
     height: 72px;
   }

@@ -14,13 +14,13 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
 document.addEventListener('DOMContentLoaded', () => {
-  const swiper = new Swiper('.swiper', {
+  const swiper = new Swiper('#how-to-play-swiper', {
     modules: [Navigation, Pagination],
     speed: 600,
     slidesPerView: 1,
     spaceBetween: 24,
     pagination: {
-      el: '.swiper-pagination',
+      el: '#how-to-play-pagination',
       type: 'progressbar',
       clickable: true,
     },
@@ -31,8 +31,8 @@ document.addEventListener('DOMContentLoaded', () => {
       thresholdDelta: 70,
     },
     navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
+      nextEl: '#htp-next',
+      prevEl: '#htp-prev',
     },
     breakpoints: {
       1200: {
