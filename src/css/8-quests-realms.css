@@ -14,28 +14,29 @@
 
 .quests-wrapper {
     position: relative;
+    z-index: 3;
 }
 
 .quests-bg1,
 .quests-bg2 {
-    width: 270px;
-    height: 270px;
-    filter: blur(30px);
+    width: 166px;
+    height: 142px;
+    filter: blur(40px);
     fill: #6018de;
     position: absolute;
-    z-index: 1;
+    z-index: -1;
 }
 
 .quests-bg1 {
-    top: 30px;
-    left: 30px;
-    transform: translate(-50%, -50%);
+    top: 10px;
+    left: 40px;
+    transform: translate(-50%, 50%);
 }
 
 .quests-bg2 {
-    bottom: 30px;
+    bottom: 40px;
     right: 30px;
-    transform: translate(50%, 50%);
+    transform: translate(50%, -50%);
 }
 
 
@@ -95,10 +96,6 @@
     transform: translateX(-50%);
 }
 
-#quests-btn-next,
-#quests-btn-prev {
-    display: none;
-}
 
 .quests-botom-descr {
     font-weight: 400;
@@ -111,6 +108,11 @@
 }
 
 @media only screen and (min-width: 1200px) {
+    
+    #quests-swiper {
+        width: 875px;
+    }
+    
     .quests-title {
         font-weight: 500;
         font-size: 40px;
@@ -159,24 +161,26 @@
         width: 552px;
     }
 
-    .quest-left,
-    .quest-right {
-        width: 72px;
-        height: 72px;
-
-    }
-
-    #quests-btn-next {
-        width: 72px;
-        height: 72px;
-        transform: rotate(180deg);
-
+    .quests-bg1,
+    .quests-bg2 {
+        width: 272px;
+        height: 272px;
+        filter: blur(70px);
+        fill: #6018de;
+        position: absolute;
+        z-index: -1;
     }
     
-    #quests-btn-prev {
-        width: 72px;
-        height: 72px;
-
+    .quests-bg1 {
+        bottom: 0px;
+        left: 0px;
+        transform: translate(-50%, 50%);
+    }
+    
+    .quests-bg2 {
+        top: 0px;
+        right: 0px;
+        transform: translate(-50%, -50%);
     }
     
 }
