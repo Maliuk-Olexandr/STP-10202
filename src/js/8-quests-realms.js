@@ -22,7 +22,7 @@ const swiper2 = new Swiper('#quests-swiper', {
     1200: {
       coverflowEffect: {
         rotate: 0,
-        stretch: 150,
+        stretch: 50,
         depth: 100,
         modifier: 1,
         slideShadows: false,
