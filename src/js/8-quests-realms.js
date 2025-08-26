@@ -18,4 +18,16 @@ const swiper2 = new Swiper("#quests-swiper", {
     slideShadows: false,
     scale: 1,
   },
+  breakpoints: {
+    1200: {
+      coverflowEffect: {
+        rotate: 0,
+        stretch: 220,
+        depth: 100,
+        modifier: 1,
+        slideShadows: false,
+        scale: 1,
+      },
+    },
+  },
 });
