@@ -109,8 +109,9 @@
 
 @media only screen and (min-width: 1200px) {
     
-    #quests-swiper {
+    .quests-wrapper {
         width: 875px;
+        margin: 0 auto;
     }
     
     .quests-title {
@@ -174,13 +175,13 @@
     .quests-bg1 {
         bottom: 0px;
         left: 0px;
-        transform: translate(-50%, 50%);
+        transform: translate(-30%, 120%);
     }
     
     .quests-bg2 {
-        top: 0px;
+        top: 60px;
         right: 0px;
-        transform: translate(-50%, -50%);
+        transform: translate(35%, -50%);
     }
     
 }
