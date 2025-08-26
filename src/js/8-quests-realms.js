@@ -1,16 +1,21 @@
 import Swiper from "swiper";
-import { Navigation, EffectCoverflow } from "swiper/modules"; // 
+import { Navigation, EffectCoverflow } from "swiper/modules";
+import 'swiper/css';
+import 'swiper/css/navigation';
 
-const swiper = new Swiper("#quests-swiper", {
-  modules: [Navigation, EffectCoverflow], 
+const swiper2 = new Swiper("#quests-swiper", {
+  effect: "coverflow",
+  modules: [Navigation, EffectCoverflow],
+  loop: true,
+  slidesPerView: "auto",
+  grabCursor: true,
   centeredSlides: true,
-  slidesPerView: 3,
+  slidesPerView: "auto",
   coverflowEffect: {
-    rotate: 50,
-    stretch: -100,
+    rotate: 0,
+    stretch: 270,
     depth: 100,
     modifier: 1,
-    slideShadows: true,
   },
   navigation: {
     nextEl: ".swiper-button-next",

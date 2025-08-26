@@ -24,13 +24,13 @@
     padding-bottom: 50px;
 }
 
+
 .swiper-slide {
     background-position: center;
     background-size: cover;
     position: relative;
     margin-bottom: 24px;
     width: 288px;
-
 }
 
 .slide-image {
@@ -67,7 +67,7 @@
 }
 
 #quests-btn-next,
-#quest-btn-prev {
+#quests-btn-prev {
     display: none;
 }
 
@@ -81,3 +81,71 @@
     margin: 0 auto;
 }
 
+@media only screen and (min-width: 1200px) {
+    .quests-title {
+        font-weight: 500;
+        font-size: 40px;
+    }
+
+    .quests-descr {
+        font-size: 24px;
+        margin-bottom: 82px;
+    }
+
+    .swiper-slide {
+        width: 875px;
+    }
+
+    .slide-image {
+        width: 360px;
+        height: 554px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .slide-descr {
+        font-size: 24px;
+        width: 286px;
+        height: 74px;
+        bottom: 68px;
+    }
+
+    .descr-one {
+        font-size: 24px;
+        width: 286px;
+        height: 74px;
+        bottom: 56px;
+
+    }
+
+    #quests-btn-next,
+    #quests-btn-prev {
+        display: block;
+    }
+
+    .quests-botom-descr {
+        font-size: 24px;
+        width: 552px;
+    }
+
+    .quest-left,
+    .quest-right {
+        width: 72px;
+        height: 72px;
+
+    }
+
+    #quests-btn-next {
+        width: 72px;
+        height: 72px;
+        transform: rotate(180deg);
+
+    }
+    
+    #quests-btn-prev {
+        width: 72px;
+        height: 72px;
+
+    }
+    
+}
