@@ -15,8 +15,6 @@
 .quests-wrapper {
     position: relative;
     z-index: 3;
-    width: 288px;
-    margin: 0 auto;
 }
 
 .quests-bg1,
@@ -126,7 +124,6 @@
     .swiper-slide {
         background-position: center;
         background-size: cover;
-        width: 875px;
     }
 
     .slide-image {
@@ -149,11 +146,6 @@
         height: 74px;
         bottom: 56px;
 
-    }
-
-    #quests-btn-next,
-    #quests-btn-prev {
-        display: block;
     }
 
     .quests-botom-descr {
