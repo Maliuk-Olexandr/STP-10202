@@ -1,5 +1,7 @@
 #quests-and-realms {
     background-color: #fffdf5;
+    position: relative;
+    overflow: hidden;
 }
 
 .quests-title {
@@ -9,6 +11,33 @@
     color: #161616;
     margin-bottom: 62px;
 }
+
+.quests-wrapper {
+    position: relative;
+}
+
+.quests-bg1,
+.quests-bg2 {
+    width: 270px;
+    height: 270px;
+    filter: blur(30px);
+    fill: #6018de;
+    position: absolute;
+    z-index: 1;
+}
+
+.quests-bg1 {
+    top: 30px;
+    left: 30px;
+    transform: translate(-50%, -50%);
+}
+
+.quests-bg2 {
+    bottom: 30px;
+    right: 30px;
+    transform: translate(50%, 50%);
+}
+
 
 .quests-descr {
     font-weight: 600;
@@ -93,6 +122,8 @@
     }
 
     .swiper-slide {
+        background-position: center;
+        background-size: cover;
         width: 875px;
     }
 

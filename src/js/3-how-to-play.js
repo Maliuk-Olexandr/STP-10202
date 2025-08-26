@@ -7,7 +7,7 @@ export function debounce(func, delay) {
 }
 
 import Swiper from 'swiper';
-import { Navigation, Pagination, Autoplay } from 'swiper/modules';
+import { Navigation, Pagination } from 'swiper/modules';
 // import Swiper and modules styles
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -15,7 +15,7 @@ import 'swiper/css/pagination';
 
 document.addEventListener('DOMContentLoaded', () => {
   const swiper = new Swiper('.swiper', {
-    modules: [Navigation, Pagination, Autoplay],
+    modules: [Navigation, Pagination],
     speed: 600,
     slidesPerView: 1,
     spaceBetween: 24,
@@ -28,10 +28,6 @@ document.addEventListener('DOMContentLoaded', () => {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
     },
-    // autoplay: {
-    //   delay: 5000,
-    //   disableOnInteraction: false,
-    // },
     breakpoints: {
       1200: {
         slidesPerView: 2,
@@ -43,10 +39,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const handleResize = debounce(() => {
     swiper.update();
-    if (swiper.autoplay) {
-      swiper.autoplay.stop();
-      swiper.autoplay.start();
-    }
   }, 300);
 
   window.addEventListener('resize', handleResize);
