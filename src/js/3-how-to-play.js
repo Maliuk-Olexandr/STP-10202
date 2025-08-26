@@ -24,6 +24,12 @@ document.addEventListener('DOMContentLoaded', () => {
       type: 'progressbar',
       clickable: true,
     },
+    keyboard: {
+      enabled: true,
+    },
+    mousewheel: {
+      thresholdDelta: 70,
+    },
     navigation: {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',

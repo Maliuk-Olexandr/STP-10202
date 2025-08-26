@@ -59,12 +59,16 @@ h4 {
 }
 
 .back-link {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   text-decoration: none;
   color: inherit;
   gap: 4px;
   padding: 0 16px;
+  max-width: fit-content;
+}
+.back-link:hover {
+  text-decoration: underline;
 }
 
 header {
@@ -87,8 +91,14 @@ header p {
 a {
   text-decoration: underline;
 }
+a:hover,
+a:focus {
+  color: blue;
+  fill: blue;
+}
 .footer a {
   text-decoration: none;
+  color:#161616
 }
 @media screen and (min-width: 1200px) {
   h2 {
