@@ -9,6 +9,10 @@ body {
 h1, h2, h3, .title,p {
   font-size-adjust: 0.48;
 }
+h1 {
+  font-size: 2rem;
+  line-height: 1.2;
+}
 
 html {
   scroll-behavior: smooth;
