@@ -39,7 +39,7 @@ refs.burgerBtn.addEventListener('click', () => {
 
 // Закриття по кліку на посилання або на фон
 refs.mobMenu.addEventListener('click', e => {
-  if (e.target.matches('.mobile-link') || e.target === refs.mobMenu) {
+  if (e.target.matches('.js-mobile-link') || e.target === refs.mobMenu) {
     toggleMobMenu(false);
   }
 });

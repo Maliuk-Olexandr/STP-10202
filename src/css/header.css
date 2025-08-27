@@ -78,7 +78,8 @@ body[data-scroll='lock'] {
   color: #fffdf5;
 }
 
-.mobile-link {
+.mobile-link,
+.js-mobile-link {
   display: block;
   color: white;
   font-size: 16px;
@@ -86,13 +87,17 @@ body[data-scroll='lock'] {
   background-color: transparent;
 }
 .mobile-link:hover,
-.mobile-link:focus {
-  text-shadow: 0 0 40px rgb(255, 255, 255),0 0 35px rgb(165, 255, 182),0 0 30px rgb(166, 255, 136),0 0 25px rgb(255, 115, 115);
-  color:aqua;
+.mobile-link:focus,
+.js-mobile-link:hover,
+.js-mobile-link:focus {
+  text-shadow: 0 0 40px rgb(255, 255, 255), 0 0 35px rgb(165, 255, 182),
+    0 0 30px rgb(166, 255, 136), 0 0 25px rgb(255, 115, 115);
+  color: aqua;
   outline: none;
 }
-.mobile-link:active{
-  color:#31e89f;
+.mobile-link:active,
+.js-mobile-link:active {
+  color: #31e89f;
 }
 
 @media screen and (min-width: 1200px) {
