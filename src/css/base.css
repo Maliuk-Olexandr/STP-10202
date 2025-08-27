@@ -24,7 +24,7 @@ button,
 svg,
 input,
 input::placeholder {
-  transition-duration: 500ms;
+  transition-duration: 300ms;
   transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -74,7 +74,7 @@ input::placeholder {
 }
 
 section{
-    scroll-margin-top: 50px;
+    scroll-margin-top: 52px;
 }
 @media screen and (min-width: 1200px) {
   .download-link {
@@ -94,6 +94,6 @@ section{
   }
 
   section{
-    scroll-margin-top: 130px;
+    scroll-margin-top: 134px;
 }
 }
