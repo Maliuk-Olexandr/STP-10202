@@ -21,7 +21,7 @@
   width: 289px;
   height: 251px;
   position: relative;
-  margin-bottom: 40px;
+  margin: 0 auto;
 }
 .how-slide-img {
   width: 242px;
@@ -134,6 +134,9 @@
   .swiper-pagination-progressbar-fill {
   background: rgba(22, 22, 22, 0.93);
   border-radius: 4px;
+}
+#how-to-play-swiper ul{
+  margin-bottom: 40px;
 }
 
 @media screen and (min-width: 1200px) {

@@ -9,7 +9,6 @@ import 'swiper/css/pagination';
     modules: [Navigation, Pagination],
     speed: 600,
     slidesPerView: 1,
-    spaceBetween: 24,
     pagination: {
       el: '#how-to-play-pagination',
       type: 'progressbar',
