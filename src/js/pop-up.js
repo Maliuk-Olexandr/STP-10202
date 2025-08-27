@@ -5,15 +5,15 @@ document.addEventListener('DOMContentLoaded', () => {
     const declineBtn = document.querySelector('#decline-cookies');
 
     if (!localStorage.getItem('cookiesAccepted')) {
-      popup.classList.add('show');
+      popup.classList.add('js-show');
 
       acceptBtn.addEventListener('click', () => {
         localStorage.setItem('cookiesAccepted', 'true');
-        popup.classList.remove('show');
+        popup.classList.remove('js-show');
       });
       declineBtn.addEventListener('click', () => {
         localStorage.setItem('cookiesAccepted', 'false');
-        popup.classList.remove('show');
+        popup.classList.remove('js-show');
       });
     }
   }, 7000);
