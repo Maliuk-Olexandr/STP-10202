@@ -1,127 +1,165 @@
 #quests-and-realms {
-    background-color: #fffdf5;
-    position: relative;
-    overflow: hidden;
+  background-color: #fffdf5;
+  position: relative;
+  overflow: hidden;
 }
 
 .quests-title {
-    font-weight: 600;
-    font-size: 24px;
-    text-align: center;
-    margin-bottom: 62px;
+  font-weight: 600;
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 62px;
 }
 
 .quests-wrapper {
-    position: relative;
-    z-index: 3;
-    margin-bottom: 24px;
+  position: relative;
+  z-index: 3;
+  margin-bottom: 24px;
 }
 
 .quests-bg1,
 .quests-bg2 {
-    width: 166px;
-    height: 142px;
-    filter: blur(40px);
-    fill: #6018de;
-    position: absolute;
-    z-index: -1;
+  width: 166px;
+  height: 142px;
+  filter: blur(40px);
+  fill: #6018de;
+  position: absolute;
+  z-index: -1;
 }
-.quest-li{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.quest-li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .quests-bg1 {
-    bottom: 40px;
-    left: 20px;
-    transform: translate(-50%, 50%);
+  bottom: 40px;
+  left: 20px;
+  transform: translate(-50%, 50%);
 }
 
 .quests-bg2 {
-    top: 40px;
-    right: 30px;
-    transform: translate(50%, -50%);
+  top: 40px;
+  right: 30px;
+  transform: translate(50%, -50%);
 }
 
 .quests-descr {
-    font-weight: 600;
-    font-size: 16px;
-    text-align: center;
-    margin-bottom: 24px;
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 24px;
 }
 
 .slide-image {
-    width: 117px;
-    height: 180px;
-    margin: 0 auto;
+  width: 117px;
+  height: 180px;
+  margin: 0 auto;
 }
 
 .slide-descr {
-    font-weight: 400;
-    font-size: 8px;
-    text-align: center;
-    color: #fffdf5;
-    width: 100px;
-    position: absolute;
-    bottom: 16px;
-    left: 50%;
-    transform: translateX(-50%);
+  font-weight: 400;
+  font-size: 8px;
+  text-align: center;
+  color: #fffdf5;
+  width: 100px;
+  position: absolute;
+  bottom: 16px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .quests-botom-descr {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.46;
-    text-align: center;
-    width: 224px;
-    margin: 0 auto;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.46;
+  text-align: center;
+  width: 224px;
+  margin: 0 auto;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after,
+#qr-btn-prev,
+#qr-btn-next {
+  display: none;
 }
 
 @media only screen and (min-width: 1200px) {
-    
-    .quests-wrapper {
-        width: 875px;
-        margin: 0 auto 24px;
-    }
-    
-    .quests-title {
-        font-weight: 500;
-        font-size: 40px;
-    }
+  .quests-wrapper {
+    width: 875px;
+    margin: 0 auto 24px;
+  }
 
-    .quests-descr {
-        font-size: 24px;
-        margin-bottom: 82px;
-    }
+  .quests-title {
+    font-weight: 500;
+    font-size: 40px;
+  }
 
+  .quests-descr {
+    font-size: 24px;
+    margin-bottom: 82px;
+  }
 
-    .slide-image {
-        width: 360px;
-        height: 554px;
-    }
+  .slide-image {
+    width: 360px;
+    height: 554px;
+  }
 
-    .slide-descr {
-        font-size: 24px;
-        width: 312px;
-        bottom: 28px;
-    }
-  
-    .quests-botom-descr {
-        font-size: 24px;
-        width: 552px;
-    }
+  .slide-descr {
+    font-size: 24px;
+    width: 312px;
+    bottom: 28px;
+  }
 
-    .quests-bg1,
-    .quests-bg2 {
-        width: 272px;
-        height: 272px;
-        filter: blur(70px);
-        fill: #6018de;
-        position: absolute;
-        z-index: -1;
-    }
-    
-  
-    
+  .quests-botom-descr {
+    font-size: 24px;
+    width: 552px;
+  }
+
+  .quests-bg1,
+  .quests-bg2 {
+    width: 272px;
+    height: 272px;
+    filter: blur(70px);
+    fill: #6018de;
+    position: absolute;
+    z-index: -1;
+  }
+
+  #qr-btn-prev,
+  #qr-btn-next {
+    width: 72px;
+    height: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    margin-top: 0;
+    background-color: transparent;
+    color: #161616;
+  }
+  #qr-btn-next {
+    top: 50%;
+    right: -50px;
+    transform: rotateY(180deg) translate(-50%, -50%);
+  }
+  #qr-btn-prev {
+    left: -50px;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+#qr-btn-next:hover svg,
+#qr-btn-next:focus svg{
+ color: aqua;
+ stroke: aqua;
+ filter: drop-shadow(-1px 1px 1px rgba(0,0,0,0.3)) drop-shadow(1px -1px 1px rgba(255,255,255,0.2));
+}
+#qr-btn-prev:hover svg,
+#qr-btn-prev:focus svg {
+  stroke: aqua;
+ color: aqua;
+  filter: drop-shadow(1px 1px 1px rgba(0,0,0,0.3)) drop-shadow(-1px -1px 1px rgba(255,255,255,0.2));
+}
 }

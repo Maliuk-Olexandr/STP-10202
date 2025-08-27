@@ -19,6 +19,10 @@ const swiper2 = new Swiper('#quests-swiper', {
     slideShadows: false,
     scale: 1,
   },
+  navigation: {
+    nextEl: '#qr-btn-next',
+    prevEl: '#qr-btn-prev',
+  },
   breakpoints: {
     1200: {
       coverflowEffect: {
