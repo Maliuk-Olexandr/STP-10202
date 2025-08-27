@@ -150,16 +150,12 @@
     transform: translate(-50%, -50%);
   }
 
-#qr-btn-next:hover svg,
-#qr-btn-next:focus svg{
- color: aqua;
- stroke: aqua;
- filter: drop-shadow(-1px 1px 1px rgba(0,0,0,0.3)) drop-shadow(1px -1px 1px rgba(255,255,255,0.2));
-}
-#qr-btn-prev:hover svg,
-#qr-btn-prev:focus svg {
-  stroke: aqua;
- color: aqua;
-  filter: drop-shadow(1px 1px 1px rgba(0,0,0,0.3)) drop-shadow(-1px -1px 1px rgba(255,255,255,0.2));
-}
+  #qr-btn-next:hover svg,
+  #qr-btn-next:focus svg,
+  #qr-btn-prev:hover svg,
+  #qr-btn-prev:focus svg {
+    transform: scale(1.1);
+    filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.3))
+      drop-shadow(-1px -1px 1px rgba(255, 255, 255, 0.2));
+  }
 }
